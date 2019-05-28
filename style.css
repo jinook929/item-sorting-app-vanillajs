@@ -27,6 +27,11 @@ th {
   text-align: center;
 }
 
+.productName {
+  width: 200px;
+  text-align: center;
+}
+
 tbody th {
   background: #ddd;
 }

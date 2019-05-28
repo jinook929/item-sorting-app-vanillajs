@@ -51,6 +51,7 @@ function init() {
     let tdPrice = tableRow.insertCell(1);
     tdName.innerHTML = product.name;
     tdPrice.innerHTML = product.price;
+    tdName.setAttribute('class', 'productName');
     // // Mark out-of-stock products
     if(!product.stocked) {
       tdName.setAttribute('style', 'color:red');
